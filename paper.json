@@ -1,0 +1,42 @@
+{
+  "Privacy": {
+    "P1a: Privacy Mechanism, Mention of Mechanism": false,
+    "P1b: Privacy Mechanism, Mechanism Description": false,
+    "P1c: Privacy Mechanism, Evidence or Implementation": false,
+    "P2: Formal Guarantees (Explicit parameters: epsilon, delta, key length, k, l, t)": false,
+    "P3a: Attacker Modeling, Mention of Adversary": false,
+    "P3b: Attacker Modeling, Capabilities Defined": false,
+    "P3c: Attacker Modeling, Formal Modeling / Mathematical Representation": true,
+    "P4a: Temporal Privacy, Mention of Temporal Aspects": false,
+    "P4b: Temporal Privacy, Composition Formally Analyzed": false,
+    "P5: Hybrid or Multi-Layer Privacy": false,
+    "P6: Data Coverage (trajectory, control, ID, etc.)": false
+  },
+  "Utility": {
+    "U1a: Accuracy Reporting, Mention of Metrics": false,
+    "U1b: Accuracy Reporting, Results Provided": false,
+    "U2a: Baseline Comparison, Baseline Identification": false,
+    "U2b: Baseline Comparison, Quantitative Comparison": false,
+    "U3a: Robustness Analysis, Test Scenarios Defined": false,
+    "U3b: Robustness Analysis, Results Analyzed": false,
+    "U4a: Real-System Validation, System Description": false,
+    "U4b: Real-System Validation, Validation Evidence": false,
+    "U5a: Generalization, Multiple Scenarios/Datasets": false,
+    "U5b: Generalization, Generalization Results": false
+  },
+  "Safety": {
+    "S1a: Formal Safety Verification, Method Mention": false,
+    "S1b: Formal Safety Verification, Application Described": false,
+    "S1c: Formal Safety Verification, Results Provided": false,
+    "S2a: Safety Constraints, Constraints Defined": false,
+    "S2b: Safety Constraints, Integration Shown": false,
+    "S3a: Adversarial Safety Resilience, Adversarial Scenarios": false,
+    "S3b: Adversarial Safety Resilience, Resilience Tested": false,
+    "S4a: Scenario-Based Validation, Scenarios Described": false,
+    "S4b: Scenario-Based Validation, Validation Results": false,
+    "S5a: Real-Time Safety Modeling, RT Modeling": false,
+    "S5b: Real-Time Safety Modeling, Scalability & Physical Link": false,
+    "S6a: Ethics Regulatory Safety Integration, Explicit Compliance/Ethics Modeling with Safety Linkage": false,
+    "S6b: Ethics Regulatory Safety Integration, Link to Safety": true
+  }
+}
