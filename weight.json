@@ -3,14 +3,14 @@
       "P1a: Privacy Mechanism, Mention of Mechanism": 0.1,
       "P1b: Privacy Mechanism, Mechanism Description": 0.1,
       "P1c: Privacy Mechanism, Evidence or Implementation": 0.1,
-      "P2: Formal Guarantees (Explicit parameters)": 0.1,
+      "P2: Formal Guarantees Explicit parameters": 0.1,
       "P3a: Attacker Modeling, Mention of Adversary": 0.05,
       "P3b: Attacker Modeling, Capabilities Defined": 0.1,
-      "P3c: Attacker Modeling, Formal Modeling / Mathematical Representation": 0.05,
+      "P3c: Attacker Modeling, Mathematical Representation": 0.05,
       "P4a: Temporal Privacy, Mention of Temporal Aspects": 0.05,
       "P4b: Temporal Privacy, Composition Formally Analyzed": 0.05,
-      "P5: Hybrid or Multi-Layer Privacy": 0.1,
-      "P6: Data Coverage (trajectory, control, ID, etc.)": 0.2
+      "P5: Hybrid or Multi-Layer Privacy, Combination of multiple mechanisms": 0.1,
+      "P6: Data Coverage, Breadth of protected data types": 0.2
     },
     "Utility": {
       "U1a: Accuracy Reporting, Mention of Metrics": 0.1,
@@ -25,18 +25,18 @@
       "U5b: Generalization, Generalization Results": 0.1
     },
     "Safety": {
-      "S1a: Formal Safety Verification, Method Mention": 0.1,
+      "S1a: Formal Safety Verification, Mention of Mechanism ": 0.1,
       "S1b: Formal Safety Verification, Application Described": 0.1,
       "S1c: Formal Safety Verification, Results Provided": 0.1,
       "S2a: Safety Constraints, Constraints Defined": 0.1,
-      "S2b: Safety Constraints, Integration Shown": 0.05,
+      "S2b: Safety Constraints, Integration Provided": 0.05,
       "S3a: Adversarial Safety Resilience, Adversarial Scenarios": 0.1,
       "S3b: Adversarial Safety Resilience, Resilience Tested": 0.05,
-      "S4a: Scenario-Based Validation, Scenarios Described": 0.1,
-      "S4b: Scenario-Based Validation, Validation Results": 0.1,
+      "S4a: Validation Scenario, Scenarios Described": 0.1,
+      "S4b: Validation Scenario, Validation Results": 0.1,
       "S5a: Real-Time Safety Modeling, RT Modeling": 0.05,
-      "S5b: Real-Time Safety Modeling, Scalability & Physical Link": 0.05,
-      "S6a: Ethics Regulatory Safety Integration, Explicit Compliance/Ethics Modeling with Safety Linkage": 0.05,
-      "S6b: Ethics Regulatory Safety Integration, Link to Safety": 0.05
+      "S5b: Real-Time Safety Modeling, Scalability/Physical Link": 0.05,
+      "S6a: Safety Integration, Explicit Modeling": 0.05,
+      "S6b: Safety Integration, Link to Safety": 0.05
     }
   }
