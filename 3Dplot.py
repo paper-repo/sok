@@ -1,43 +1,36 @@
-import pandas as pd
 import plotly.express as px
+import pandas as pd
 
-df = pd.read_excel("scores.xlsx")
+df = pd.read_excel("scores.xlsx", engine="openpyxl")
 
 fig = px.scatter_3d(
     df,
     x="Privacy",
     y="Utility",
     z="Safety",
+    color="Safety",   # still show safety as color
     text="Paper",
-    color="Safety",
-    range_x=[0,1],
-    range_y=[0,1],
-    range_z=[0,1])
-
-fig.update_traces(
-    marker=dict(size=10, opacity=0.9),
-    hoverlabel=dict(
-        font_size=50,
-        font_family="Nimbus Roman No9 L",
-        bgcolor="rgba(200,200,220,0.35)",
-        bordercolor="black"
-    ),
-    textfont=dict(
-        size=21,       
-        color="black"
-    ),
-    textposition="top center"
+    color_continuous_scale=[
+    [0.0, "#B2182B"],   # bad safety = dark red
+    [0.3, "#EF8A62"],   # low-medium = orange
+    [0.6, "#FEE08B"],   # medium = yellow
+    [0.8, "#A6D96A"],   # good = light green
+    [1.0, "#1A9850"],   # best safety = green
+    ]
 )
+
+
+fig.update_traces(textfont=dict(size=10, color="black")) 
 fig.update_layout(
+    scene_camera=dict(eye=dict(x=1.5, y=1.5, z=1.5)), 
+    font=dict(size=15),
     scene=dict(
         xaxis_title="Privacy",
         yaxis_title="Utility",
-        zaxis_title="Safety",
-        xaxis=dict(backgroundcolor="white", gridcolor="lightgray"),
-        yaxis=dict(backgroundcolor="white", gridcolor="lightgray"),
-        zaxis=dict(backgroundcolor="white", gridcolor="lightgray"),
-    ),
-    margin=dict(l=0, r=0, b=0, t=40)
+        zaxis_title="Safety"
+
+    )
 )
+fig.update_coloraxes(colorbar_title="Safety")
 
 fig.show()
