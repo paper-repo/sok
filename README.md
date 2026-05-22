@@ -1,4 +1,4 @@
-# Harpo Artifacts (USENIX Security '26)
+# Harpo Artifacts 
 
 This repository contains the artifacts for the paper:
 **“SoK: A Practical Black-Box Framework for Evaluating Differential Privacy in Cyber-Physical Systems.”**
